@@ -1,1 +1,15 @@
-/* Write your CSS here */
+.language-filter-item {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+  }
+
+  .active {
+    font-weight: bold;
+    color: #0284c7;
+  }
+
+  

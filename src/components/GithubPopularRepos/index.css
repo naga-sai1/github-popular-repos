@@ -1,5 +1,30 @@
-.popular-heading{
-    text-align: center;
+.language-filters {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .repository-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .github-popular-repos-container {
+    padding: 20px;
+  }
+  
+  .popular-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
     font-family: 'Lobster';
-    font-weight: 500;
-}
+    font-weight: bold;
+  }
+  
